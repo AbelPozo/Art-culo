@@ -1,0 +1,18 @@
+.derecha {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#ojo-image {
+    width: 200px;
+}
+
+#tecnología1-image {
+    width: 250px;
+}
+
+#tecnología2-image {
+    width: 423px;
+    align-items: top;
+}
