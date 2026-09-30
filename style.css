@@ -1,3 +1,12 @@
+.articulo {
+    width: 90%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
 .derecha {
     display: flex;
     align-items: flex-start;
@@ -8,11 +17,37 @@
     width: 200px;
 }
 
-#tecnología1-image {
+.texto {
+    flex: 1;
+}
+
+.tecnologia {
+    margin-top: 30px;
+}
+
+.fotos-tecnologia {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+#tecnologia1-image {
     width: 250px;
 }
 
-#tecnología2-image {
+#tecnologia2-image {
     width: 423px;
-    align-items: top;
+}
+
+.aplicaciones {
+    margin-top: 30px;
+}
+
+.futuro {
+    margin-top: 30px;
+}
+
+.fuentes {
+    margin-top: 30px;
 }
