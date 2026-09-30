@@ -44,6 +44,16 @@ h1 {
     margin-top: 30px;
 }
 
+.foto-aplicaciones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aplicaciones-image {
+    width: 600px;
+}
+
 .futuro {
     margin-top: 30px;
 }
