@@ -1,10 +1,32 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
 .articulo {
     width: 90%;
-    margin: auto;
+    max-width: 1000px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 30px;
+    box-sizing: border-box;
 }
 
 h1 {
     text-align: center;
+    margin-bottom: 40px;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 8px;
+    margin-top: 30px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.6;
 }
 
 .derecha {
@@ -15,6 +37,9 @@ h1 {
 
 #ojo-image {
     width: 250px;
+    border: 4px solid yellow;
+    border-radius: 15px;
+    box-shadow: 0 3px 8px #999;
 }
 
 .texto {
@@ -22,7 +47,7 @@ h1 {
 }
 
 .tecnologia {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .fotos-tecnologia {
@@ -34,14 +59,20 @@ h1 {
 
 #tecnologia1-image {
     width: 250px;
+    border: 4px solid red;
+    border-radius: 15px;
+    box-shadow: 0 3px 8px #999;
 }
 
 #tecnologia2-image {
     width: 423px;
+    border: 4px solid orangered;
+    border-radius: 15px;
+    box-shadow: 0 3px 8px #999;
 }
 
 .aplicaciones {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .foto-aplicaciones {
@@ -51,13 +82,35 @@ h1 {
 }
 
 #aplicaciones-image {
-    width: 600px;
+    width: 500px;
+    border: 4px solid blue;
+    border-radius: 20px;
+    box-shadow: 0 3px 8px #999;
 }
 
 .futuro {
-    margin-top: 30px;
+    margin-top: 40px;
+}
+
+.foto-futuro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#futuro-image {
+    width: 500px;
+    border: 4px solid green;
+    border-radius: 20px;
+    box-shadow: 0 3px 8px #999;
 }
 
 .fuentes {
-    margin-top: 30px;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+.fuentes a {
+    display: block;
+    margin-bottom: 8px;
 }
